@@ -1,0 +1,7 @@
+.place__website {
+  margin: 12px 0 48px 0;
+  color: #fff;
+  font-size: 18px;
+  line-height: 22px;
+  grid-area: website;
+}
