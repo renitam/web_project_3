@@ -5,5 +5,5 @@
 
 .cover {
   margin: 0 auto;
-  width: 1184px;
+  min-width: 1184px;
 }
