@@ -1,6 +1,8 @@
 .header__lang {
   justify-content: space-between;
-  align-self: flex-end;
+  /* Align-self set to center (instead of flex-end like in design spec)
+  because it looks a lot better and in-line this way*/
+  align-self: center;
   display: flex;
   gap: 18px;
 }

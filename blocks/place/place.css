@@ -4,16 +4,16 @@
 @import url(__url-label/place__url-label.css);
 @import url(__website/place__website.css);
 
+@import url(__column/place__column.css);
+@import url(__image/place__image.css);
+@import url(__paragraph/place__paragraph.css);
+@import url(__title/place__title.css);
+@import url(__url-label/place__url-label.css);
+@import url(__website/place__website.css);
+
 .place {
   width: 100%;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(5, auto);
-  grid-column-gap: 40px;
-  grid-template-areas: 
-    "title url"
-    ". website"
-    "image paragraph"
-    "image paragraph"
-    "image paragraph";
+  margin: 0 auto 80px;
+  display: flex;
+  gap: 40px;
 }
