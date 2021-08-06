@@ -1,17 +1,4 @@
 .place__paragraph {
-  margin: 0 0 25px;
-  font-family: 'Inter', sans-serif;
-  font-size: 18px;
-  line-height: 1.63;
-}
-.place__paragraph:first-of-type {
-  grid-area: paragraph1;
-}
-
-.place__paragraph:nth-of-type(2) {
-  grid-area: paragraph2;
-}
-
-.place__paragraph:nth-of-type(3) {
-  grid-area: paragraph3;
+  display: flex;
+  flex-flow: column;
 }

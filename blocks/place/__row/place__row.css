@@ -1,0 +1,5 @@
+.place__row {
+  display: grid;
+  grid-template-columns: 460px auto;
+  gap: 40px;
+}
