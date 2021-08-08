@@ -7,6 +7,7 @@
 
 .header {
   width: 984px;
+  min-width: 288px;
   margin: 50px auto 0;
   display: flex;
   justify-content: space-between;

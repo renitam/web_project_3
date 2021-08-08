@@ -4,6 +4,8 @@
 @import url(__title/cover__title.css);
 
 .cover {
-  margin: 0 auto;
-  min-width: 1184px;
+  margin: 0 48px;
+  display: flex;
+  align-items: center;
+  flex-basis: 1184px;
 }
