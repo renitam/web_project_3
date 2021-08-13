@@ -5,3 +5,9 @@
   letter-spacing: 0.2em;
   color: #aaaaaa;
 }
+
+@media screen and (max-width: 1023px) {
+  .place__url-label {
+    line-height: 12px;
+  }
+}

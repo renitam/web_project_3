@@ -15,3 +15,9 @@
   flex-direction: column;
   gap: 48px;
 }
+
+@media screen and (max-width: 767px) {
+  .place {
+    gap: 30px;
+  }
+}

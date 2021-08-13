@@ -3,3 +3,26 @@
   grid-template-columns: 460px auto;
   gap: 40px;
 }
+
+@media screen and (max-width: 1279px) {
+  .place__row {
+    grid-template-columns: 440px auto;
+    gap: 32px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .place__row {
+    grid-template-columns: 340px auto;
+    gap: 28px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place__row {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    gap: 30px;
+  }
+}

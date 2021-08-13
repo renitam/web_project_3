@@ -6,6 +6,6 @@
 @import url(__title/intro__title.css);
 
 .intro {
-  margin: 0 auto;
-  width: 984px;
+  width: 100%;
+  margin: 0;
 }
