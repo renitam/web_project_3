@@ -1,6 +1,5 @@
 .place__image {
   width: 100%;
-  min-height: 440px;
   height: 100%;
   margin: 0;
   object-fit: contain;
