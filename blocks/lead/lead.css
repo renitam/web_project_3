@@ -10,14 +10,9 @@
   flex-direction: column;
 }
 
+/* Using calc to account for the gap between sections*/
 
 @media screen and (max-width: 1279px) {
-  .lead {
-    margin: calc(50px - 92px) 148px 0;
-  }
-}
-
-@media screen and (max-width: 1024px) {
   .lead {
     margin: calc(50px - 92px) 0 0;
   }
@@ -26,7 +21,6 @@
 @media screen and (max-width: 768px) {
   .lead {
     margin: calc(50px - 88px) 0 0;
-    max-width: 100%;
   }
 }
 
