@@ -1,11 +1,12 @@
 .place__row {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 460px auto;
   gap: 40px;
 }
 
 @media screen and (max-width: 1279px) {
   .place__row {
+    grid-template-columns: 1fr 1fr;
     gap: 32px;
   }
 }

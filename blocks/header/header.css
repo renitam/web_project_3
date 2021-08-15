@@ -1,12 +1,11 @@
-@import url(__caption/header__caption.css);
-@import url(__image/header__image.css);
 @import url(__lang/header__lang.css);
 @import url(__lang-link/header__lang-link.css);
-@import url(__subtitle/header__subtitle.css);
-@import url(__title/header__title.css);
+@import url(__lang-link/_active/header__lang-link_active.css);
 
 .header {
-  margin: 34px 0 0;
+  margin: 34px auto 0;
+  max-width: 1280px;
+  background-color: #2a2c2f;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -15,6 +14,7 @@
 @media screen and (max-width: 1279px) {
  .header {
   margin: 34px 48px 0;
+  max-width: none;
  } 
 }
 

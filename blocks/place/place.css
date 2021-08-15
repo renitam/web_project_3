@@ -1,4 +1,3 @@
-@import url(__column/place__column.css);
 @import url(__image/place__image.css);
 @import url(__paragraph/place__paragraph.css);
 @import url(__row/place__row.css);
@@ -9,15 +8,27 @@
 @import url(__website/place__website.css);
 
 .place {
-  width: 100%;
-  margin: 0 auto;
+  margin: 0 148px;
   display: flex;
   flex-direction: column;
   gap: 48px;
 }
 
+@media screen and (max-width: 1279px) {
+  .place {
+    margin: 0 48px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .place {
+    margin: 0 24px;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .place {
+    margin: 0;
     gap: 30px;
   }
 }

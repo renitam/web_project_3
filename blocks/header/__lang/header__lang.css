@@ -1,5 +1,5 @@
 .header__lang {
-  margin-right: 148px;
+  margin: 0 148px 0 0;
   justify-content: space-between;
   /* Align-self set to center (instead of flex-end like in design spec)
   because it looks a lot better and in-line this way*/
@@ -10,18 +10,18 @@
 
 @media screen and (max-width: 1279px) {
   .header__lang {
-    margin-right: 48px;
+    margin: 0 48px 0 0;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .header__lang {
-    margin-right: 24px;
+    margin: 0 24px 0 0;
   }
 }
 
 @media screen and (max-width: 767px) {
   .header__lang {
-    margin-right: 16px;
+    margin: 0 16px 0 0;
   }
 }

@@ -1,0 +1,19 @@
+.sections {
+  margin: 0 auto;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  gap: 92px;
+}
+
+@media screen and (max-width: 1023px) {
+  .sections {
+    gap: 88px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .sections {
+    gap: 64px;
+  }
+}

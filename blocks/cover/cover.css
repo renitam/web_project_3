@@ -5,12 +5,14 @@
 
 .cover {
   margin: 0 48px;
+  max-width: 1280px;
   width: 100%;
 }
 
 @media screen and (max-width: 1279px) {
   .cover {
     margin: 0;
+    max-width: none;
   }
 }
 

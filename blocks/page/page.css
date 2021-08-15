@@ -3,25 +3,7 @@
   display: flex;
   flex-flow: column;
   align-items: center;
-  gap: 92px;
   color: #fff;
   font-family: 'Inter', sans-serif;
   margin: 0;
-}
-
-@media screen and (max-width: 1279px) {
-  .page {
-  }
-}
-
-@media screen and (max-width: 1023px) {
-  .page {
-    gap: 88px;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .page {
-    gap: 64px;
-  }
 }

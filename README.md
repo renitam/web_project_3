@@ -1,3 +1,4 @@
+Project Name:
 # Project 3: From Portland to Portland
 
 ### Overview
@@ -18,3 +19,12 @@ This is a project about traveling across the US. We've made it so all the elemen
 The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
 
 Good luck and have fun!
+
+Description of project and functionality:
+This project is based off of the Figma above and responds to the following resolutions:
+- 320px
+- 768px
+- 1024px 
+- 1280px or higher
+
+The responsiveness is achieved using CSS Grid and Flex layouts.
