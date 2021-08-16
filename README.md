@@ -28,3 +28,5 @@ This project is based off of the Figma above and responds to the following resol
 - 1280px or higher
 
 The responsiveness is achieved using CSS Grid and Flex layouts.
+
+Check out the completed project here: [Link to Web Project 3](https://xxengineer-practicum.github.io/web_project_3/).
